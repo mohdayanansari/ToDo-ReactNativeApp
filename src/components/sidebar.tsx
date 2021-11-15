@@ -59,7 +59,7 @@ const Sidebar = (props: DrawerContentComponentProps) => {
           borderWidth={3}
         />
         <Heading mb={4} size="xl">
-          Takuya Matsuyama
+          Hey, User
         </Heading>
         <MenuButton
           active={currentRoute === 'Main'}

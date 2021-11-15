@@ -38,7 +38,7 @@ const AboutScreen = () => {
         <VStack flex={1} space={4}>
           <Box alignItems="center">
             <Image
-              source={require('../assets/takuya.jpg')}
+              source={require('../assets/ayan.png')}
               borderRadius="full"
               resizeMode="cover"
               w={120}
@@ -47,45 +47,44 @@ const AboutScreen = () => {
             />
           </Box>
           <Text fontSize="md" w="full">
-            This is a React Native tutorial built in the YouTube channel called
-            DevAsLife.
+            Hey there, This is a React Native App currently in a Static version built by Ayan Ansari 
           </Text>
           <LinkButton
             colorScheme="red"
             size="lg"
             borderRadius="full"
-            href="https://www.youtube.com/devaslife"
+            href="https://www.instagram.com/object_oriented_dev"
             leftIcon={
-              <Icon as={Feather} name="youtube" size="sm" opacity={0.5} />
+              <Icon as={Feather} name="instagram" size="sm" opacity={0.5} />
             }
           >
-            Go to YouTube channel
+            My Instagram
           </LinkButton>
           <LinkButton
             colorScheme={useColorModeValue('blue', 'darkBlue')}
             size="lg"
             borderRadius="full"
-            href="https://twitter.com/inkdrop_app"
+            href="https://github.com/objectorienteddev07"
             leftIcon={
-              <Icon as={Feather} name="twitter" size="sm" opacity={0.5} />
+              <Icon as={Feather} name="github" size="sm" opacity={0.5} />
             }
           >
-            @inkdrop_app
+            My Github
           </LinkButton>
           <Text fontSize="md" w="full">
-            Are you looking for a Markdown note-taking app? Check out my app
-            called Inkdrop!
+
+            See my projects on my website or connect with me, let's do something amazing together!!🔥 
           </Text>
           <LinkButton
             colorScheme="purple"
             size="lg"
             borderRadius="full"
-            href="https://www.inkdrop.app/"
+            href="https://ayanansariportfolio.herokuapp.com/"
             leftIcon={
               <Icon as={Feather} name="external-link" size="sm" opacity={0.5} />
             }
           >
-            https://www.inkdrop.app/
+            My Website
           </LinkButton>
         </VStack>
       </ScrollView>
